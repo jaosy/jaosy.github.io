@@ -37,14 +37,14 @@ function App() {
         <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/koualoe?style=social" />
 
         <img alt="YouTube Follow" src="https://img.shields.io/youtube/channel/views/UCOSW69N8mHd13JVRoZmZRxQ?style=social" />
-
+        <a href='https://svgshare.com/s/dak' ><img src='https://svgshare.com/i/dak.svg' title='' /></a>
         <Tweet tweetId="1482884018110615552" />
 
         <h2>X-ertion</h2>
         <p>X-ertion is a student-led Asian hip-hop dance crew founded at Macalester College. We hold open dances every weekend for students of all skill and experience levels, and have public showcases once per academic semester.</p>
 
         <p>I've been an active member since joining in 2018, and recently took over as co-chair in 2021. As co-chair, I organize our activities and logistics, recruit new members and also arrange dance routines to teach. I am committed to promoting X-ertion as one of the main cultural and performance-based student organizations on campus.</p>
-        <YouTube videoId="AdKJGh1hEeY" opts={opts} onReady={(e) => { e.target.pauseVideo() }} />
+        <YouTube videoId="AdKJGh1hEeY" opts={opts} />
       </header>
     </div>
   );
