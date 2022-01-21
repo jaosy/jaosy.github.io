@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import ExtracurricularsContainer from "./Fun/ExtracurricularsContainer"
-
+import Projects from './Projects/Projects';
 
 function App() {
 
@@ -18,11 +18,11 @@ function App() {
           </ul>
         </nav>
         <Routes>
+          <Route path="/" element={<Projects />}></Route>
           <Route path="/fun" element={< ExtracurricularsContainer />} />
         </Routes>
-
       </header>
-    </div>
+    </div >
   );
 }
 
