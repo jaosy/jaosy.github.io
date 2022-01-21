@@ -12,11 +12,11 @@ export default function Art() {
 
             <p>I create tutorials and speedpaints to share my process and tips with others.</p>
 
-            <p>From 2017-2021, I served as a community moderator on Anime Art Amino, an art-sharing social media platform.</p>
+            <p>From 2017-2021, I served as a community moderator on <a href="https://aminoapps.com/c/anime-art/page/user/hi7ug4h5hjgczo6g2gvbysns5i/d3W1_bK2fzfLamRQoKamejmYeKb4mn3QbPlfP">Anime Art Amino</a>, an art-sharing social media platform.</p>
 
             <p>Fun fact; I studied traditional art and design following the Cambridge IGCSE syllabus code 0400 and earned a final grade of A*, but anime/manga style is more charming and fun to draw!</p>
 
-            <p>Tools:</p>
+            <p style={{ fontWeight: 'bold' }}>Tools:</p>
             <ul>
                 <li>ibisPaint X</li>
                 <li>Clip Studio Paint</li>
