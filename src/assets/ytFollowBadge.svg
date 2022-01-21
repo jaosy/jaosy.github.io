@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg aria-label="Views: 248" role="img" viewBox="0 0 250 20" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Views: 248</title>
+<a target="_blank" xlink:href="https://www.youtube.com/channel/UCOSW69N8mHd13JVRoZmZRxQ">
+<style>a:hover #llink{fill:url(#c);stroke:#ccc}a:hover #rlink{fill:#4183c4}</style>
+<linearGradient id="d" x2="0" y2="100%">
+<stop stop-color="#fcfcfc" stop-opacity="0" offset="0"/>
+<stop stop-opacity=".1" offset="1"/>
+</linearGradient>
+<linearGradient id="c" x2="0" y2="100%">
+<stop stop-color="#ccc" stop-opacity=".1" offset="0"/>
+<stop stop-opacity=".1" offset="1"/>
+</linearGradient>
+<g stroke="#d5d5d5">
+<rect x=".5" y=".5" width="58" height="19" rx="2" fill="#fcfcfc" stroke="none"/>
+<rect x="64.5" y=".5" width="27" height="19" rx="2" fill="#fafafa"/>
+<rect x="64" y="7.5" width=".5" height="5" stroke="#fafafa"/>
+<path d="m64.5 6.5l-3 3v1l3 3" fill="#fafafa" stroke="d5d5d5"/>
+</g>
+<image x="5" y="3" width="14" height="14" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkYwMDAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+WW91VHViZTwvdGl0bGU+PHBhdGggZD0iTTIzLjQ5OCA2LjE4NmEzLjAxNiAzLjAxNiAwIDAgMC0yLjEyMi0yLjEzNkMxOS41MDUgMy41NDUgMTIgMy41NDUgMTIgMy41NDVzLTcuNTA1IDAtOS4zNzcuNTA1QTMuMDE3IDMuMDE3IDAgMCAwIC41MDIgNi4xODZDMCA4LjA3IDAgMTIgMCAxMnMwIDMuOTMuNTAyIDUuODE0YTMuMDE2IDMuMDE2IDAgMCAwIDIuMTIyIDIuMTM2YzEuODcxLjUwNSA5LjM3Ni41MDUgOS4zNzYuNTA1czcuNTA1IDAgOS4zNzctLjUwNWEzLjAxNSAzLjAxNSAwIDAgMCAyLjEyMi0yLjEzNkMyNCAxNS45MyAyNCAxMiAyNCAxMnMwLTMuOTMtLjUwMi01LjgxNHpNOS41NDUgMTUuNTY4VjguNDMyTDE1LjgxOCAxMmwtNi4yNzMgMy41Njh6Ii8+PC9zdmc+"/>
+<g fill="#333" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="110px" font-weight="700" text-anchor="middle" text-rendering="geometricPrecision" aria-hidden="true" line-height="14px">
+<rect x=".5" y=".5" width="58" height="19" rx="2" fill="url(#d)" stroke="#d5d5d5"/>
+<text transform="scale(.1)" x="375" y="150" fill="#fff" aria-hidden="true" textLength="310">Views</text>
+<text transform="scale(.1)" x="375" y="140" textLength="310">Views</text>
+<text transform="scale(.1)" x="775" y="150" fill="#fff" aria-hidden="true" textLength="190">248</text>
+<text transform="scale(.1)" x="775" y="140" textLength="190">248</text>
+</g>
+</a>
+</svg>
