@@ -4,8 +4,8 @@ import { projectsData } from './ProjectsData';
 
 export default function Projects() {
     return (
-        <div sx={{ display: 'flex', flexDirection: 'row' }}>
+        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", alignItems: "start" }}>
             {projectsData.map(project => (<ProjectCard key={project.title} project={project} />))}
-        </div>
+        </div >
     )
 }
