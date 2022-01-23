@@ -11,16 +11,11 @@ import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContentText from '@mui/material/DialogContentText';
 
-
 export default function ProjectCard(props) {
     const [open, setOpen] = useState(false);
 
     const onClickMore = () => {
         setOpen(true);
-        console.log(
-            Object.entries(props.project.links)
-                .map(([key, value]) => `My key is ${key} and my value is ${value}`)
-        )
     }
 
     const onClose = () => {
@@ -31,15 +26,16 @@ export default function ProjectCard(props) {
         <Typography paragraph="true">{p}</Typography>);
 
     const projectLinks = Object.entries(props.project.links)
-        .map(([title, link]) => <a href={link}>{title}</a>)
+        .map(([title, link]) => <li key={title}><a href={link}>{title}</a></li>)
 
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
                 component="img"
-                height="100%"
+                height="auto"
                 image={props.project.image}
                 alt=""
+                className="projectsCardImage"
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -56,7 +52,7 @@ export default function ProjectCard(props) {
             <Dialog open={open}
                 onClose={onClose}>
                 <DialogTitle id="scroll-dialog-title">{props.project.title}</DialogTitle>
-                <DialogContentText sx={{ p: '1.5em' }}>
+                <DialogContentText sx={{ pr: '1.5em', pl: '1.5em' }}>
                     {projectDescription}
                     <ul>{projectLinks}</ul>
                 </DialogContentText>

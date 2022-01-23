@@ -1,8 +1,8 @@
 import React from 'react';
 import { Tweet } from 'react-twitter-widgets'
-import { ReactComponent as IgFollowBadge } from '../assets/igFollowBadge.svg'
-import { ReactComponent as YtFollowBadge } from '../assets/ytFollowBadge.svg'
-import { ReactComponent as TwitterFollowBadge } from '../assets/twitterFollowBadge.svg'
+import { ReactComponent as IgFollowBadge } from '../static/igFollowBadge.svg'
+import { ReactComponent as YtFollowBadge } from '../static/ytFollowBadge.svg'
+import { ReactComponent as TwitterFollowBadge } from '../static/twitterFollowBadge.svg'
 
 export default function Art() {
     return (
