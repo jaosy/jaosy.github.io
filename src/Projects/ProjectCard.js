@@ -14,21 +14,24 @@ import DialogContentText from '@mui/material/DialogContentText';
 
 export default function ProjectCard(props) {
     const [open, setOpen] = useState(false);
-    const [selectedProject, setSelectedProject] = useState('');
 
     const onClickMore = () => {
         setOpen(true);
+        console.log(
+            Object.entries(props.project.links)
+                .map(([key, value]) => `My key is ${key} and my value is ${value}`)
+        )
     }
 
     const onClose = () => {
         setOpen(false);
     };
 
-    const generateParagraphs = (projectDescription) => {
-        console.log(projectDescription);
-        if (projectDescription !== '')
-            projectDescription.map(paragraph => <Typography paragraph='true'>paragraph</Typography>)
-    }
+    const projectDescription = props.project.description.map(p =>
+        <Typography paragraph="true">{p}</Typography>);
+
+    const projectLinks = Object.entries(props.project.links)
+        .map(([title, link]) => <a href={link}>{title}</a>)
 
     return (
         <Card sx={{ maxWidth: 345 }}>
@@ -53,7 +56,10 @@ export default function ProjectCard(props) {
             <Dialog open={open}
                 onClose={onClose}>
                 <DialogTitle id="scroll-dialog-title">{props.project.title}</DialogTitle>
-                <DialogContentText sx={{ p: '1.5em' }}>{() => { generateParagraphs(props.project.description) }}</DialogContentText>
+                <DialogContentText sx={{ p: '1.5em' }}>
+                    {projectDescription}
+                    <ul>{projectLinks}</ul>
+                </DialogContentText>
             </Dialog>
         </Card >
     );
