@@ -29,7 +29,7 @@ export default function ProjectCard(props) {
         .map(([title, link]) => <li key={title}><a href={link}>{title}</a></li>)
 
     return (
-        <Card sx={{ maxWidth: 345 }} >
+        <Card sx={{ maxWidth: 345 }} style={{ display: "flex", flexDirection: "column" }}>
             <CardMedia
                 component="img"
                 height="auto"
@@ -47,7 +47,7 @@ export default function ProjectCard(props) {
                 </Typography>
             </CardContent>
 
-            <CardActions className="projectsCardActions">
+            <CardActions style={{ marginTop: "auto" }}>
                 <Button size="small" onClick={onClickMore}>More</Button>
             </CardActions >
 
