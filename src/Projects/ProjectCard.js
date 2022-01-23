@@ -29,7 +29,7 @@ export default function ProjectCard(props) {
         .map(([title, link]) => <li key={title}><a href={link}>{title}</a></li>)
 
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345 }} >
             <CardMedia
                 component="img"
                 height="auto"
@@ -37,6 +37,7 @@ export default function ProjectCard(props) {
                 alt=""
                 className="projectsCardImage"
             />
+
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                     {props.project.title}
@@ -45,9 +46,10 @@ export default function ProjectCard(props) {
                     {props.project.blurb}
                 </Typography>
             </CardContent>
-            <CardActions>
+
+            <CardActions className="projectsCardActions">
                 <Button size="small" onClick={onClickMore}>More</Button>
-            </CardActions>
+            </CardActions >
 
             <Dialog open={open}
                 onClose={onClose}>

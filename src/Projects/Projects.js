@@ -4,7 +4,9 @@ import { projectsData } from './ProjectsData';
 
 export default function Projects() {
     return (
-        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", alignItems: "start", gap: "1em" }}>
+        <div style={{
+            display: "flex", flexDirection: "row", justifyContent: "space-evenly", alignItems: "stretch", gap: "1em"
+        }}>
             {projectsData.map(project => (<ProjectCard key={project.title} project={project} />))}
         </div >
     )

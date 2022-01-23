@@ -27,5 +27,18 @@ export const projectsData = [
             "Website": "https://fidget-widget.herokuapp.com/",
             "Figma mockups": "https://www.figma.com/file/gUzes27tho67bkB0hGnWx2/Design-Draft?node-id=0%3A1"
         }
+    },
+    {
+        title: "XamRight",
+        image: "https://raw.githubusercontent.com/jaosy/jaosy.github.io/c19c80d0a7637d2388f516ac86a5dc2efd3ff053/static/5.PNG",
+        blurb: "Added accessibility validators to XamRight, a Visual Studio code-analysis extension to help Xamarin.Forms developers write better XAML code",
+        description: [
+            "XamRight is a Visual Studio code-analysis extension developed by Critical Hit Technologies, LLC. to help Xamarin.Forms developers write better XAML code.",
+
+            "Interning over summer 2021, I researched accessibility features and best practices for Xamarin.Forms. I wrote rules to check that developers were following accessibility best practices in their XAML code, which show up as tooltips with warning text and code fix suggestions. For example, XamRight can detect when there are missing hints for screen readers on a UI element, and insert code fixes to attach those properties for the user."
+        ],
+        links: {
+            "XamRight": "https://criticalhittech.com/xamright/"
+        }
     }
 ]
